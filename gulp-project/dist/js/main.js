@@ -1,0 +1,1 @@
+function Generate(){return"World was generated"}var test=document.querySelector("body");function Generate(){return"World was generated"}console.log(test);var main="main.js";function Generate(){return"World was generated"}
