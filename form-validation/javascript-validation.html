@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body>
+    <form id="form">
+        <div class="form-container">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required
+            minlength="3" 
+            maxlength="24" 
+            placeholder="Jon Doe">
+            <label class="required-name">Name Required</label>
+            <br>
+            <label for="mail">Email:</label><br>
+            <input type="email" id="mail" name="mail" placeholder="test@test.com">
+            <label class="valid-email">Valid Email Required</label>
+            <br>
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="3" cols="20" placeholder="123 fake street"></textarea><br>
+            <label for="phone">Phone no:</label><br>
+            <input type="tel" id="phone" name="phone" maxlength="10" placeholder="0412345678">
+            <label class="valid-phone">Valid Phone Number Required</label>
+            <br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" min="1980-01-01"><br><br>
+            <input id="submit" type="submit">
+        </div>
+    </form>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="js/javascript-main.js"></script>   
+</body>
+</html>

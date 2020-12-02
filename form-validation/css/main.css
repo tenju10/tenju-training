@@ -1,0 +1,23 @@
+.required {
+    border: 2px solid red;
+    border-radius: 3px;
+}
+
+.required-name,
+.valid-email,
+.valid-phone {
+    display:none;
+}
+
+.show {
+    display: inline-block;
+}
+
+.error {
+    color: red;
+}
+
+input.error {
+    border: 2px solid red;
+    border-radius: 3px;
+}
