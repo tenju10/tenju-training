@@ -43,7 +43,7 @@ submit.addEventListener('click', function(event){
 
         var request = new XMLHttpRequest();
         request.addEventListener('load', callResponse);
-        request.open('POST', 'https://tenju.netlify.app/formjs')
+        request.open('POST', 'https://tenju.netlify.app:3002/formjs')
         request.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
         request.send(JSON.stringify(form));
 

@@ -51,7 +51,7 @@ function submitForm(event){
     console.log('sending form');
     $.ajax({
         type: 'get',
-        url: 'https://tenju.netlify.app/form',
+        url: 'https://tenju.netlify.app:3002/form',
         dataType: 'json',
         data: data
     })
